@@ -1,0 +1,27 @@
+.editingContainer {
+    height: 100%;
+    
+    box-sizing: border-box;
+}
+.editingIcon{
+    position: absolute;
+    left: 310px;
+    top: 12px;
+    color:black;
+    width: 10px;
+    height: 10px;
+}
+.editingTitle{
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    font-size: 24px;
+    width: 100%;
+    background-color: rgb(45, 180, 45);
+    color: white;
+    padding-left: 50px;
+}
+.ql-editor{
+    min-height:18em;
+}

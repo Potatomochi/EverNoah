@@ -1,0 +1,59 @@
+.headerContainer {
+
+    background-color: rgb(36, 36, 36);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+
+.headerLeft {
+    color: white;
+    flex: 3;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.headerRight{
+    flex:1;
+    display:flex;
+    
+}
+.addIcon{
+    padding:5px;
+    background-color:rgb(45, 180, 45);
+    border-radius:50%;
+    cursor: pointer;
+}
+.addContainer{
+    display:flex;
+    justify-content:space-between;
+    color: white;
+    margin-right:15px;
+}
+.addButton {
+    background-color:rgb(36, 36, 36);
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    border:none;
+}
+
+.logoutButton{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
